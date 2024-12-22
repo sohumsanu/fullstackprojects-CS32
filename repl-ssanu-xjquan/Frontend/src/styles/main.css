@@ -1,0 +1,61 @@
+.repl {
+  position: relative;
+  min-height: 95vh;
+  background-color: antiquewhite;
+}
+
+.repl-history {
+  height: 55vh;
+  margin: auto;
+  display: block;
+  overflow: scroll;
+  background-color: antiquewhite;
+  color: black
+}
+
+.repl-input {
+  margin: auto;
+  height: 10vh;
+  background-color: antiquewhite;
+  color: black
+}
+
+.repl-command-box {
+  width: 90%;
+  margin: auto;
+  display: block;
+  background-color: rgb(152, 111, 64);
+  color: black; 
+}
+
+button {
+  margin: auto;
+  display: block;
+  background-color: rgb(152, 111, 64)
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 8px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+  background-color: #fff;
+}
